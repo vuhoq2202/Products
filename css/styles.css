@@ -1,0 +1,216 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+}
+
+.container .add-product-btn {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.container .add-product-btn:hover {
+    background-color: #45a049;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    flex-basis: calc(100% / 6);
+    margin-right: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.col img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.col h3 {
+    font-size: 14px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.re-price {
+    color: #d9534f;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.discout {
+    font-size: 14px;
+    margin: 5px 0;
+    text-align: left;
+}
+
+.discout-price {
+    color: #777;
+    text-decoration: line-through;
+    margin-right: 5px;
+}
+
+.icon-list {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.icon-list i{
+    color: #ffd93d;
+}
+
+.icon-list span {
+    margin-left: auto;
+    color: #777;
+}
+
+h3, p , .discout {
+    text-align: left;
+}
+
+.f-size-12 {
+    color: #d9534f;
+}
+
+.col-content button {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Button styles */
+.btn-primary {
+    background-color: #0275d8;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.btn-danger {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+/* Hover effects */
+.btn-primary:hover {
+    background-color: #025aa5;
+}
+
+.btn-danger:hover {
+    background-color: #c9302c;
+}
+
+div h4 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.add-product-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0275d8;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.add-product-btn:hover {
+    background-color: #025aa5;
+    color: #fff;
+}
+.container {
+    position: relative;
+}
+
+.product-title {
+    text-align: center;
+    font-size: 36px; /* Kích thước chữ lớn hơn */
+    margin-bottom: 20px;
+    color: #333; /* Màu chữ tối */
+    font-family: 'Montserrat', sans-serif; /* Chọn font */
+}
+
+/* Cải thiện kiểu dáng cho nút Add Product */
+.btn.btn-primary {
+    background-color: #0275d8;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 20px; /* Thêm padding để nút to hơn */
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.btn.btn-primary:hover {
+    background-color: #025aa5;
+    transform: scale(1.05); /* Tăng kích thước nút khi hover */
+}
+
+.btn.btn-danger {
+    background-color: #c9302c;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 20px; /* Thêm padding để nút to hơn */
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.btn.btn-danger:hover {
+    background-color: #c9302c;
+    transform: scale(1.05); /* Tăng kích thước nút khi hover */
+}
+
+.container-header {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+
+
